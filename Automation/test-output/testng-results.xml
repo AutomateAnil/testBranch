@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="amazon_AndroidAppAutomation" duration-ms="207655" started-at="2020-11-08T17:52:30 IST" finished-at="2020-11-08T17:55:58 IST">
+    <groups>
+    </groups>
+    <test name="projectLevelconfiguration" duration-ms="16" started-at="2020-11-08T17:52:30 IST" finished-at="2020-11-08T17:52:30 IST">
+    </test> <!-- projectLevelconfiguration -->
+    <test name="amazonTest" duration-ms="207582" started-at="2020-11-08T17:52:30 IST" finished-at="2020-11-08T17:55:58 IST">
+      <class name="automation.Automation.LoginPageTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:automation.Automation.LoginPageTest@2db7a79b]" name="testSetup" is-config="true" duration-ms="4" started-at="2020-11-08T17:53:08 IST" finished-at="2020-11-08T17:53:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="createAccountLableTest()[pri:0, instance:automation.Automation.LoginPageTest@2db7a79b]" name="createAccountLableTest" duration-ms="3576" started-at="2020-11-08T17:53:08 IST" finished-at="2020-11-08T17:53:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountLableTest -->
+        <test-method status="PASS" signature="LoginAccountLableTest()[pri:1, instance:automation.Automation.LoginPageTest@2db7a79b]" name="LoginAccountLableTest" duration-ms="745" started-at="2020-11-08T17:53:11 IST" finished-at="2020-11-08T17:53:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAccountLableTest -->
+        <test-method status="PASS" signature="ValidateSuccessfulLogin()[pri:3, instance:automation.Automation.LoginPageTest@2db7a79b]" name="ValidateSuccessfulLogin" duration-ms="67568" started-at="2020-11-08T17:53:12 IST" finished-at="2020-11-08T17:54:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccessfulLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Automation.LoginPageTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-11-08T17:54:20 IST" finished-at="2020-11-08T17:54:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.Automation.LoginPageTest -->
+      <class name="automation.Automation.ProductSearchTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:automation.Automation.ProductSearchTest@6950e31]" name="testSetup" is-config="true" duration-ms="1" started-at="2020-11-08T17:54:20 IST" finished-at="2020-11-08T17:54:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:automation.Automation.ProductSearchTest@6950e31]" name="SearchProduct" duration-ms="34399" started-at="2020-11-08T17:54:20 IST" finished-at="2020-11-08T17:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method status="PASS" signature="addToCart()[pri:1, instance:automation.Automation.ProductSearchTest@6950e31]" name="addToCart" duration-ms="42889" started-at="2020-11-08T17:54:54 IST" finished-at="2020-11-08T17:55:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="cart()[pri:2, instance:automation.Automation.ProductSearchTest@6950e31]" name="cart" duration-ms="9080" started-at="2020-11-08T17:55:37 IST" finished-at="2020-11-08T17:55:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Automation.ProductSearchTest@6950e31]" name="tearDown" is-config="true" duration-ms="11519" started-at="2020-11-08T17:55:46 IST" finished-at="2020-11-08T17:55:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.Automation.ProductSearchTest -->
+      <class name="automation.CommonUtilities.InitializeResources">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automation.CommonUtilities.InitializeResources@7e2d773b]" name="setup" is-config="true" duration-ms="3452" started-at="2020-11-08T17:52:27 IST" finished-at="2020-11-08T17:52:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.CommonUtilities.InitializeResources@7e2d773b]" name="tearDown" is-config="true" duration-ms="51" started-at="2020-11-08T17:55:58 IST" finished-at="2020-11-08T17:55:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.CommonUtilities.InitializeResources -->
+      <class name="automation.Automation.SignInPageTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Automation.SignInPageTest@4671e53b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-08T17:52:30 IST" finished-at="2020-11-08T17:52:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:automation.Automation.SignInPageTest@4671e53b]" name="testSetup" is-config="true" duration-ms="34890" started-at="2020-11-08T17:52:30 IST" finished-at="2020-11-08T17:53:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="signInButtonTest()[pri:0, instance:automation.Automation.SignInPageTest@4671e53b]" name="signInButtonTest" duration-ms="2871" started-at="2020-11-08T17:53:05 IST" finished-at="2020-11-08T17:53:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInButtonTest -->
+      </class> <!-- automation.Automation.SignInPageTest -->
+    </test> <!-- amazonTest -->
+  </suite> <!-- amazon_AndroidAppAutomation -->
+</testng-results>

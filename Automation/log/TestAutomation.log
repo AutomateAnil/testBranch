@@ -1,0 +1,7 @@
+2020-11-08 17:53:05 INFO  LogManager:24 - ------------------- signInButtonTest started--------------
+2020-11-08 17:53:08 INFO  LogManager:24 - ------------------- createAccountLableTest started--------------
+2020-11-08 17:53:11 INFO  LogManager:24 - ------------------- LoginAccountLableTest started--------------
+2020-11-08 17:53:12 INFO  LogManager:24 - ------------------- ValidateSuccessfulLogin started--------------
+2020-11-08 17:54:20 INFO  LogManager:24 - ------------------- SearchProduct started--------------
+2020-11-08 17:54:54 INFO  LogManager:24 - ------------------- addToCart started--------------
+2020-11-08 17:55:37 INFO  LogManager:24 - ------------------- cart started--------------
